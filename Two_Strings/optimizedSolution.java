@@ -1,3 +1,6 @@
+//https://www.geeksforgeeks.org/check-two-strings-common-substring/
+//Optimized solution based on code from Shivam.Pradhan, nitin mittal, Anant Agarwal and Ilkin
+//optimized code is noted by citation to reference with twoStrings() function
 import java.io.*;
 import java.math.*;
 import java.security.*;
@@ -29,8 +32,8 @@ public class optimizedSolution {
             smallstr = s1;
         }
         //https://www.geeksforgeeks.org/check-two-strings-common-substring/
-        //based on code from Shivam.Pradhan and Anant Agarwal
-        //optimized code
+        //based on code from Shivam.Pradhan and Anant Agarwal and Ilkin
+        //optimized code based on code from Shivam. Pradhan, nitin mittal, and Anant Agarwal and Ilkin
         boolean string_check[] = new boolean[1000];
         Arrays.fill(string_check, false);
         
